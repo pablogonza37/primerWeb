@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Practica de html y css" />
+    <meta
+      name="Keywords"
+      content="tablas, listas,estructura html, clases, selectores"
+    />
+    <meta name="author" content="Pablo Gonzalez" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/flexbox.css" />
+    <script
+      src="https://kit.fontawesome.com/6e4abd3d09.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Primer web</title>
+  </head>
+  <body>
+    <!-- lo que quiero ver en mi sitio -->
+    <header>
+      <nav>
+        <a href="../index.html">Inicio</a>
+        <a href="elementos.html">Elementos</a>
+        <a href="position.html">Position</a>
+        <a href="flexbox.html">Flexbox</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </header>
+    <main>
+      <!-- banner principal -->
+      <section class="banner">
+        <h1>Practica de position con flexbox</h1>
+      </section>
+      <section id="contenedorPrincipal">
+        <article>
+          <h2>
+            Contenedor flexible <i class="fa-solid fa-user-secret fa-lg"></i>
+          </h2>
+
+          <div class="contenedorPadre">
+            <div class="itemHijo item1">item 1</div>
+            <div class="itemHijo item2">item 2</div>
+            <div class="itemHijo item3">item 3</div>
+            <div class="itemHijo item4">item 4</div>
+            <div class="itemHijo item5">item 5</div>
+          </div>
+        </article>
+
+        <article>
+          <h2>
+            Contenedor Display flex row-reverse
+            <i class="fa-solid fa-user-secret fa-lg"></i>
+          </h2>
+
+          <div class="contenedorPadreConrowreverse">
+            <div class="itemHijo item1">item 1</div>
+            <div class="itemHijo item2">item 2</div>
+            <div class="itemHijo item3">item 3</div>
+            <div class="itemHijo item4">item 4</div>
+            <div class="itemHijo item5">item 5</div>
+          </div>
+        </article>
+
+        <article>
+          <h2>
+            Contenedor Display flex column-reverse
+            <i class="fa-solid fa-user-secret fa-lg"></i>
+          </h2>
+
+          <div class="contenedorPadreColumnreverse">
+            <div class="itemHijoPredeterminado item1">item 1</div>
+            <div class="itemHijoPredeterminado item2">item 2</div>
+            <div class="itemHijoPredeterminado item3">item 3</div>
+            <div class="itemHijoPredeterminado item4">item 4</div>
+            <div class="itemHijoPredeterminado item5">item 5</div>
+          </div>
+        </article>
+
+        <article>
+          <h2>
+            Contenedor flexible con hijos de un tamaño x
+            <i class="fa-solid fa-user-secret fa-lg"></i>
+          </h2>
+
+          <div class="contenedorPadreConTamanioPredeterminado">
+            <div class="itemHijoPredeterminado item1">item 1</div>
+            <div class="itemHijoPredeterminado item2">item 2</div>
+            <div class="itemHijoPredeterminado item3">item 3</div>
+            <div class="itemHijoPredeterminado item4">item 4</div>
+            <div class="itemHijoPredeterminado item5">item 5</div>
+          </div>
+        </article>
+
+        <article>
+          <h2>
+            Justify Content end
+            <i class="fa-solid fa-user-secret fa-lg"></i>
+          </h2>
+
+          <div class="contenedorPadreJustifyContentend">
+            <div class="itemHijoPredeterminado item1">item 1</div>
+            <div class="itemHijoPredeterminado item2">item 2</div>
+            <div class="itemHijoPredeterminado item3">item 3</div>
+            <div class="itemHijoPredeterminado item4">item 4</div>
+            <div class="itemHijoPredeterminado item5">item 5</div>
+          </div>
+        </article>
+
+        <article>
+          <h2>
+            Justify Center
+            <i class="fa-solid fa-user-secret fa-lg"></i>
+          </h2>
+
+          <div class="contenedorPadreJustifyCenter">
+            <div class="itemHijoPredeterminado item1">item 1</div>
+            <div class="itemHijoPredeterminado item2">item 2</div>
+            <div class="itemHijoPredeterminado item3">item 3</div>
+            <div class="itemHijoPredeterminado item4">item 4</div>
+            <div class="itemHijoPredeterminado item5">item 5</div>
+          </div>
+        </article>
+
+        <article>
+          <h2>
+            Justify Content Around
+            <i class="fa-solid fa-user-secret fa-lg"></i>
+          </h2>
+
+          <div class="contenedorPadreJustifyContentaround">
+            <div class="itemHijoPredeterminado item1">item 1</div>
+            <div class="itemHijoPredeterminado item2">item 2</div>
+            <div class="itemHijoPredeterminado item3">item 3</div>
+            <div class="itemHijoPredeterminado item4">item 4</div>
+            <div class="itemHijoPredeterminado item5">item 5</div>
+          </div>
+        </article>
+
+        <article>
+          <h2>
+            Justify Content evenly
+            <i class="fa-solid fa-user-secret fa-lg"></i>
+          </h2>
+
+          <div class="contenedorPadreJustifyContentevenly">
+            <div class="itemHijoPredeterminado item1">item 1</div>
+            <div class="itemHijoPredeterminado item2">item 2</div>
+            <div class="itemHijoPredeterminado item3">item 3</div>
+            <div class="itemHijoPredeterminado item4">item 4</div>
+            <div class="itemHijoPredeterminado item5">item 5</div>
+          </div>
+        </article>
+
+        <article>
+          <h2>Aling - item <i class="fa-solid fa-user-secret fa-lg"></i></h2>
+
+          <div class="contenedorPadreAlingItems">
+            <div class="itemHijoPredeterminado item1">item 1</div>
+            <div class="itemHijoPredeterminado item2">item 2</div>
+            <div class="itemHijoPredeterminado item3">item 3</div>
+            <div class="itemHijoPredeterminado item4">item 4</div>
+            <div class="itemHijoPredeterminado item5">item 5</div>
+          </div>
+        </article>
+
+        <article>
+          <h2>Aling-item flex start<i class="fa-solid fa-user-secret fa-lg"></i></h2>
+
+          <div class="contenedorPadreAlingItemsFlexstart">
+            <div class="itemHijoPredeterminado item1">item 1</div>
+            <div class="itemHijoPredeterminado item2">item 2</div>
+            <div class="itemHijoPredeterminado item3">item 3</div>
+            <div class="itemHijoPredeterminado item4">item 4</div>
+            <div class="itemHijoPredeterminado item5">item 5</div>
+          </div>
+        </article>
+
+        <article>
+          <h2>Aling-item flex end<i class="fa-solid fa-user-secret fa-lg"></i></h2>
+
+          <div class="contenedorPadreAlingItemsFlexend">
+            <div class="itemHijoPredeterminado item1">item 1</div>
+            <div class="itemHijoPredeterminado item2">item 2</div>
+            <div class="itemHijoPredeterminado item3">item 3</div>
+            <div class="itemHijoPredeterminado item4">item 4</div>
+            <div class="itemHijoPredeterminado item5">item 5</div>
+          </div>
+        </article>
+
+        <article>
+          <h2>Aling-content between<i class="fa-solid fa-user-secret fa-lg"></i></h2>
+
+          <div class="contenedorPadreAlingContentbetween">
+            <div class="itemHijoPredeterminado item1">item 1</div>
+            <div class="itemHijoPredeterminado item2">item 2</div>
+            <div class="itemHijoPredeterminado item3">item 3</div>
+            <div class="itemHijoPredeterminado item4">item 4</div>
+            <div class="itemHijoPredeterminado item5">item 5</div>
+          </div>
+        </article>
+
+        <article>
+          <h2>Aling-content Around<i class="fa-solid fa-user-secret fa-lg"></i></h2>
+
+          <div class="contenedorPadreAlingContentaround">
+            <div class="itemHijoPredeterminado item1">item 1</div>
+            <div class="itemHijoPredeterminado item2">item 2</div>
+            <div class="itemHijoPredeterminado item3">item 3</div>
+            <div class="itemHijoPredeterminado item4">item 4</div>
+            <div class="itemHijoPredeterminado item5">item 5</div>
+          </div>
+        </article>
+
+        <article>
+          <h2>Aling-content evenly<i class="fa-solid fa-user-secret fa-lg"></i></h2>
+
+          <div class="contenedorPadreAlingContentevenly">
+            <div class="itemHijoPredeterminado item1">item 1</div>
+            <div class="itemHijoPredeterminado item2">item 2</div>
+            <div class="itemHijoPredeterminado item3">item 3</div>
+            <div class="itemHijoPredeterminado item4">item 4</div>
+            <div class="itemHijoPredeterminado item5">item 5</div>
+          </div>
+        </article>
+
+        <article>
+          <h2>Order<i class="fa-solid fa-user-secret fa-lg"></i></h2>
+
+          <div class="contenedorPadreOrder">
+            <div class="itemHijoPredeterminado item1">item 1</div>
+            <div class="itemHijoPredeterminado item2">item 2</div>
+            <div class="itemHijoPredeterminado item3">item 3</div>
+            <div class="itemHijoPredeterminado item4">item 4</div>
+            <div class="itemHijoPredeterminado item5">item 5</div>
+          </div>
+        </article>
+
+        <article>
+          <h2>Order<i class="fa-solid fa-user-secret fa-lg"></i></h2>
+
+          <div class="contenedorPadreOrder2">
+            <div class="itemHijoPredeterminado item1 " id="ordenPosicion3">item 1</div>
+            <div class="itemHijoPredeterminado item2 " id="ordenPosicion5">item 2</div>
+            <div class="itemHijoPredeterminado item3 ordenPosicion2">item 3</div>
+            <div class="itemHijoPredeterminado item4" id="ordenPosicion1">item 4</div>
+            <div class="itemHijoPredeterminado item5" id="ordenPosicion4">item 5</div>
+          </div>
+        </article>
+
+      </section>
+    </main>
+    <footer>
+      <p>&copy; Rolling code 2023 - Todos los derechos reservados</p>
+    </footer>
+  </body>
+</html>

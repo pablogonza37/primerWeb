@@ -1,0 +1,37 @@
+#contenedorPrincipal{
+    border: 1px solid rgba(105, 101, 101, 0.836);
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    
+}
+
+.nombre, .email, .consulta{
+    width: 100%;
+}
+.nombre input{
+    width: 100%;
+}
+.email input{
+    width: 100%;
+}
+.consulta textarea{
+    width: 100%;
+    margin: 15px 0px;
+}
+
+input{
+    margin: 15px 0px;
+    height: 20px;
+    
+}
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(111, 85, 138);
+    color: white;
+    box-shadow: none;
+}

@@ -1,0 +1,46 @@
+/* practica de position */
+
+.caja {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  #cajaAzul {
+    background: blue;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+  }
+  
+  #cajaRojo {
+    background: red;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    z-index: 2;
+  }
+  
+  #cajaAmarillo {
+    
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    bottom: 20px;
+  }
+
+  #cajaAmarillo img{
+    width: 100%;
+  }
+
+  #contenedorPadre{
+    border: 1px solid red;
+    position: relative;
+  }
+
+  #parrafoSticky{
+    background: yellow;
+    position: sticky;
+    top: 10px;
+  }

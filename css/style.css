@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/* selector universal */
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  min-height: 100%vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* aqui viene el estilo que quiera realizar */
+nav {
+  background: #191c1af3;
+  /* arriba y abajo mismo valor, izq y der */
+  /* padding: 40px 10px; */
+  /* padding: 20px 40px 50px 0px; */
+  /* padding-bottom: 50px; */
+  padding: 20px 10px;
+}
+
+main{
+  flex-grow: 1;
+}
+/* tarea seleccionar las a del nav agregarle un color  */
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0px 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  /*background: yellow;
+    color: black;*/
+}
+
+footer {
+  background: #191c1af3;
+  color: white;
+  padding: 20px 0px;
+  text-align: center;
+  
+}
+
+/* banner principal*/
+.banner {
+  /*background-color: #4158d0;
+  background-image: linear-gradient(43deg, #4158d0, #c850c0, #ffcc70);*/
+  background: rgb(38, 4, 10);
+  background: linear-gradient(
+    90deg,
+    rgba(38, 4, 10, 1) 0%,
+    rgba(221, 42, 64, 1) 60%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  padding: 25px 0px;
+  text-align: center;
+  color: white;
+}
+
+#contenedorPrincipal {
+  margin: 30px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+a:hover {
+  color: yellow;
+  text-align: center;
+}
+
+
+hr {
+  margin: 15px 0px;
+}
+
+/* seleccionar todas las listas*/
+
+ul,
+ol {
+  list-style-position: inside;
+  margin-bottom: 10px;
+}
+
+/* Estilo de tablas*/
+
+table {
+  border: 1px solid rgb(15, 6, 6);
+  width: 100%;
+}
+td,
+th {
+  padding: 10px;
+}
+
+th {
+  background-color: rgb(40, 40, 134);
+  color: white;
+}
+
+tbody tr:nth-child(odd) {
+  /*propiedad even(par) odd(impar)*/
+  background: rgb(59, 58, 59);
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgb(115, 119, 119);
+}
+
+
+
+

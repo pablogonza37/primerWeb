@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Practica de html y css" />
+    <meta
+      name="Keywords"
+      content="tablas, listas,estructura html, clases, selectores"
+    />
+    <meta name="author" content="Pablo Gonzalez" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Primer web</title>
+  </head>
+  <body>
+    <!-- lo que quiero ver en mi sitio -->
+    <header>
+      <nav>
+        <a href="index.html">Inicio</a>
+        <a href="./pages/elementos.html">Elementos</a>
+        <a href="./pages/position.html">Position</a>
+        <a href="./pages/flexbox.html">Flexbox</a>
+        <a href="./pages/contacto.html">Contacto</a>
+      </nav>
+    </header>
+    <main>
+      <!-- banner principal -->
+      <section class="banner">
+        <h1>
+          Practica de HTML5 y CSS3 <br />
+          Comenzamos nuestra primer web
+        </h1>
+      </section>
+      <section id="contenedorPrincipal">
+        <p>
+          Una página web básica creada con HTML y CSS es una página estática que
+          muestra contenido e información sin funcionalidades interactivas o
+          dinámicas. Aquí tienes una descripción básica de cómo se estructura
+          una página web con HTML y se le da estilo con CSS
+        </p>
+        <article>
+          <h2>HTML (HyperText Markup Language):</h2>
+          <p>
+            HTML es el lenguaje de marcado utilizado para crear la estructura y
+            el contenido de la página web. Se compone de elementos, etiquetas y
+            atributos que definen la disposición y jerarquía del
+            contenido.Informacion extra en
+            <a href="https://developer.mozilla.org/es/docs/Web/HTML"
+              >developer Mozilla</a
+            >
+          </p>
+          <ul>
+            <li>
+              Encabezado: Se define utilizando la etiqueta <b>&lt;head&gt;</b>.
+              Aquí se incluyen elementos como el título de la página, metadatos
+              (como la codificación de caracteres y la descripción de la página)
+              y enlaces a hojas de estilo CSS y otros recursos.
+            </li>
+            <li>
+              Cuerpo: Se define con la etiqueta <b>&lt;body&gt;</b>. Aquí es
+              donde se coloca todo el contenido visible de la página, como
+              encabezados, párrafos, imágenes, enlaces y otros elementos.
+            </li>
+            <li>
+              Etiquetas: Los elementos HTML se crean con etiquetas, como
+              <b>&lt;h1&gt;</b> para encabezados principales,
+              <b>&lt;p&gt;</b> para párrafos, <b>&lt;img&gt;</b> para imágenes y
+              <b>&lt;a&gt;</b> para enlaces.
+            </li>
+          </ul>
+        </article>
+        <article>
+          <h2>CSS (Cascading Style Sheets)</h2>
+          <p>
+            CSS es el lenguaje utilizado para dar estilo y diseño a la página
+            web. Permite controlar la apariencia de los elementos HTML, como
+            colores, fuentes, tamaños, márgenes y posicionamiento.
+          </p>
+          <ol>
+            <li>
+              Selectores: Los selectores de CSS identifican los elementos HTML a
+              los que se aplicarán los estilos. Pueden ser selectores de
+              etiquetas (como h1, p, img), de clases (como .encabezado,
+              .contenedor) o de identificadores (como #menu, #pie).
+            </li>
+            <li>
+              Propiedades: Las propiedades de CSS definen cómo se verán los
+              elementos seleccionados. Por ejemplo, color define el color del
+              texto, font-family establece la fuente del texto, margin define
+              los márgenes y background establece el color de fondo.
+            </li>
+            <li>
+              Valores: Los valores son asignados a las propiedades y determinan
+              cómo se mostrará el elemento. Por ejemplo, el valor blue para
+              color establecerá el texto en azul, y 20px para font-size
+              establecerá el tamaño del texto en 20 píxeles.
+            </li>
+          </ol>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; Rolling code 2023 - Todos los derechos reservados</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,202 @@
+.contenedorPadre {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h2{
+  margin: 20px 0px;
+}
+
+.itemHijo {
+  border: 1px solid #2a505e;
+  padding: 20px;
+  color: white;
+}
+
+.item1 {
+  background: #346b7f;
+}
+.item2 {
+  background: #2c91b1;
+}
+.item3 {
+  background: #399bbb;
+}
+.item4 {
+  background: #46a5c5;
+}
+.item5 {
+  background: #5db9da;
+}
+
+.itemHijoPredeterminado {
+  border: 1px solid #2a505e;
+  padding: 20px;
+  color: white;
+  width: 400px;
+}
+
+.contenedorPadreConTamanioPredeterminado {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.contenedorPadreAlingItems {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 350px;
+  align-content: center;
+}
+
+.contenedorPadreConrowreverse {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.contenedorPadreColumnreverse {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: auto;
+  
+}
+
+.contenedorPadreJustifyContentend{
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.contenedorPadreJustifyCenter{
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+
+}
+
+.contenedorPadreJustifyContentaround{
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: center;
+
+}
+
+.contenedorPadreJustifyContentevenly{
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: center;
+
+}
+
+.contenedorPadreAlingItemsFlexstart{
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 350px;
+  align-content: flex-start;
+
+}
+
+.contenedorPadreAlingItemsFlexend{
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 350px;
+  align-content: flex-end;
+}
+
+.contenedorPadreAlingContentbetween{
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 350px;
+  align-content: space-between;
+}
+
+.contenedorPadreAlingContentaround{
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 350px;
+  align-content: space-around;
+}
+
+.contenedorPadreAlingContentevenly{
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 350px;
+  align-content: space-evenly;
+}
+
+.contenedorPadreOrder {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row-reverse;
+  order: -1;
+  flex-wrap: wrap;
+  
+  
+  
+  
+}
+
+.contenedorPadreOrder2{
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
+
+#ordenPosicion1{
+  order: 1;
+}
+
+.ordenPosicion2{
+  order: 2;
+}
+
+#ordenPosicion3{
+  order: 3;
+}
+#ordenPosicion4{
+  order: 4;
+}
+#ordenPosicion5{
+  order: 5;
+}

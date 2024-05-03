@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Practica de html y css" />
+    <meta
+      name="Keywords"
+      content="tablas, listas,estructura html, clases, selectores"
+    />
+    <meta name="author" content="Pablo Gonzalez" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/contacto.css" />
+    <title>Primer web</title>
+  </head>
+  <body>
+    <!-- lo que quiero ver en mi sitio -->
+    <header>
+      <nav>
+        <a href="../index.html">Inicio</a>
+        <a href="elementos.html">Elementos</a>
+        <a href="position.html">Position</a>
+        <a href="flexbox.html">Flexbox</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </header>
+    <main>
+      <!-- banner principal -->
+      <section class="banner">
+        <h1>Formulario de contacto</h1>
+      </section>
+      <section id="contenedorPrincipal">
+        <form>
+          <div class="nombre">
+            <label for="nombreApellido" class="label-nombre">Nombre y Apellido:</label>
+            <input
+              type="text"
+              id="nombreApellido"
+              placeholder="Agustin Diaz"
+              required
+              minlength="5"
+              maxlength="50"
+            />
+          </div>
+
+          <div class="email">
+            <label for="email">Email:</label>
+            <!--{64}@{255}-->
+            <!--stándar RFC 5322-->
+            <input
+              type="email"
+              id="email"
+              placeholder="agustindiaz@gmail.com"
+              required
+              minlength="10"
+              maxlength="320"
+            />
+          </div>
+          <div class="consulta">
+            <label for="consulta">Consulta:</label>
+            <textarea
+              id="consulta"
+              rows="4"
+              minlength="5"
+              maxlength="500"
+              required
+            ></textarea>
+            <!--rezise none en css-->
+          </div>
+          <div>
+            <p>Seleccione una opción:</p>
+            <input type="checkbox" name="colores" id="checkAzul" />
+            <label for="checkAzul">Azul</label>
+            <input type="checkbox" name="colores" id="checkRojo" />
+            <label for="checkRojo">Rojo</label>
+            <input type="checkbox" name="colores" id="checkAmarillo" />
+            <label for="checkAmarillo">Amarillo</label>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; Rolling code 2023 - Todos los derechos reservados</p>
+    </footer>
+  </body>
+</html>
